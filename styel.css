@@ -1,0 +1,175 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    margin-bottom: 1em;
+    font-weight: 600;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2em;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color:#e67e22;
+    color: #ecf0f1;
+    padding: 1em 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  header nav h1 {
+    font-size: 2em;
+    letter-spacing: 2px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-left: 2em;
+  }
+  
+  header nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s;
+  }
+  
+  header nav ul li a:hover {
+    color: #f39c12;
+  }
+  
+  /* Section Styles */
+  section {
+    padding: 4em 0;
+  }
+  
+  #about p {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  /* Profile Picture Styles */
+  .profile-pic {
+    text-align: center;
+    margin-bottom: 2em;
+  }
+  
+  .profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #e67e22;
+  }
+  
+  /* Specialties Section */
+  .specialties-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .specialty {
+    background-color: #fff;
+    padding: 2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2em;
+    width: 30%;
+  }
+  
+  .specialty h3 {
+    color: #e67e22;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+  
+  .specialty p {
+    font-size: 1em;
+  }
+  
+  /* Gallery Section */
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+  }
+  
+  .gallery-grid img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-grid img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Contact Form */
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input, form textarea {
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form button {
+    padding: 1em;
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+  }
+  
+  form button:hover {
+    background-color: #d35400;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #e67e22;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
